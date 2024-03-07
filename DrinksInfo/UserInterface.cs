@@ -55,13 +55,13 @@ internal class UserInterface
                 DataAccess.SearchByCategories("Shot");
                 break;
             case DrinkCategories.CoffeOrTea:
-                DataAccess.SearchByCategories("Coffe");
+                DataAccess.SearchByCategories("Coffee_/_Tea");
                 break;
             case DrinkCategories.HomemadeLiqueur:
                 DataAccess.SearchByCategories("Homemade_Liqueur");
                 break;
             case DrinkCategories.Punch:
-                DataAccess.SearchByCategories("Punch");
+                DataAccess.SearchByCategories("Punch_/_Party Drink");
                 break;
             case DrinkCategories.Beer:
                 DataAccess.SearchByCategories("Beer");
@@ -70,7 +70,7 @@ internal class UserInterface
                 DataAccess.SearchByCategories("Soft_Drink");
                 break;
             case DrinkCategories.Other:
-                DataAccess.SearchByCategories("Other");
+                DataAccess.SearchByCategories("Other_/_Unknown");
                 break;
         }
     }
